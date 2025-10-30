@@ -31,9 +31,10 @@ function Counter({step,children}){
     var [count,setCount]=React.useState(+children)
 
     function inc(){
-        setCount((currentval)=>{
-            return currentval+step
-        })
+        setCount(count+step)
+        // setCount((currentval)=>{
+        //     return currentval+step
+        // })
     }
 
     function dec(){
