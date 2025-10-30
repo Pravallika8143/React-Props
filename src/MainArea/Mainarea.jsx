@@ -48,4 +48,4 @@ function Counter({step,children}){
         </div>
     )
 }
-export default Counter
+export default Counter;
