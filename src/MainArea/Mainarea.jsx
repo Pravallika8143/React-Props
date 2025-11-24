@@ -42,7 +42,7 @@ function Counter({step,children}){
     }
 
     return(
-        <div className="border border-info border-3 p-2 m-4">
+        <div className="border border-dark border-2 p-2 m-4">
             <h1>Counter:{count}</h1>
             <button  className="btn btn-success me-4" style={{color:"white"}} onClick={()=>{inc()}}>Increament</button>
             <button  className="btn btn-danger"  style={{color:"white"}} onClick={()=>{dec()}}>Decreament</button>
